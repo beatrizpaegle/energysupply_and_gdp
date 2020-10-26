@@ -1,5 +1,5 @@
 
-def energy_gdp_sciem():
+def answer_one():
 
 #The energy data from the file Energy Indicators.xls is a list of indicators of energy supply and renewable electricity production from the United Nations 
 #for the year 2013, and will be put into a DataFrame with the variable name of energy. Here I treated and cleaned somethings to make my work easier.
