@@ -1,0 +1,9 @@
+#the average GDP over the last 10 years for each country (excluding missing values from this calculation.)
+
+def answer_three():
+
+    Top15 = answer_one()
+    means = pd.Series([Top15.loc[country, [str(x) for x in range(2006,2016)]].mean(skipna=None) for country in list(Top15.index)], index = [country for country in list(Top15.index)])
+    return means
+
+answer_three()
